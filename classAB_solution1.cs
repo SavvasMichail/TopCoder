@@ -27,6 +27,7 @@ Notes: Brute Force
 
 class AB
 {
+    //!< Simulates the Math "Power" function
     public double MathPow(double aNum, double aPower)
     {
         double MathPowerRes = 1;
@@ -35,6 +36,7 @@ class AB
         return MathPowerRes;
     }
 
+    //!< Convert a number to its binary form and presented as string, left padded as the given length
     public string ConvertToString(int aNum, int aLength)
     {
         string iResult = "";
@@ -59,6 +61,7 @@ class AB
         return RetRes;
     }
 
+    //!< Creates the string of N digits with K pairs, using brute force.
     public string createString(int N, int K)
     {
         string Result = "";
