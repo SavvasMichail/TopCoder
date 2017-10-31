@@ -71,7 +71,8 @@ class AB
 
         if ((N >= 2 && N <= 50) || (K >= 0 && K <= (N-1)/2))
         {
-            PossibleCases = MathPow(2, N);
+            //!< Check the half of the possible combinations.
+            PossibleCases = MathPow(2, N-1);
             for (int i = 0; i < PossibleCases; ++i)
             {
                 Result = ConvertToString(i, N);
