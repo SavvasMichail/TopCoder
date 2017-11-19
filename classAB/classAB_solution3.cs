@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /********************************************************************************************************************************************
-Problem Description
+Problem Description - SRM - 648
 =============================================================================================================================================
         You are given two s: N and K. Lun the dog is interested in strings that satisfy the following conditions:
         The string has exactly N characters, each of which is either 'A' or 'B'.
